@@ -1,0 +1,34 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=M+PLUS+1+Code:wght@300;400&family=Murecho:wght@300&display=swap');
+
+
+#PI{
+
+    font-family: 'Murecho', sans-serif;
+    font-size:small;
+    position: absolute;
+}
+
+.p1{
+
+    left: 200px;
+}
+
+.p2{
+
+    left: 300px;
+}
+
+
+.p3{
+
+    left: 400px;
+}
+
+
+.p4{
+
+    left: 500px;
+}
+
