@@ -5,28 +5,61 @@
     font-family:  Helvetica;
 }
 
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     display:  inline-flex;
     padding: 10px;
     height: 110px;
 }
 
-.menu li a{
+.menu1 ul li a{
     text-decoration: none;
     color: black;
-    margin-bottom: 35px;
-
+    
 }
-.menu {
+.menu1 {
     display: inline-flex;
+   
 
 }
-.menu li{
+.menu1 ul li{
     display: inline-flex;
     margin: 15px;
     font-weight: bold;
 
 }
-.menu li a:hover{
-    color :blue;
+.menu1 ul li a:hover{
+    text-decoration: underline;
+    color :black;
+}
+
+ul.breadcrumb {
+    list-style: none;
+    font-size: 15px;
+    padding: 15px;
+}
+
+ul.breadcrumb li {
+    display: inline-block;
+}
+
+ul.breadcrumb li + li  :before {
+    content: "/";
+    padding-right : 10px
+}
+
+ul.breadcrumb li a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+ul.breadcrumb li a:hover { 
+    text-decoration: underline;
 }
