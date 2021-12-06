@@ -63,3 +63,35 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover { 
     text-decoration: underline;
 }
+
+.PI1{
+    width: 100%;
+}
+
+#A{
+    display: flex;
+    margin: 10px;
+}
+.Figures{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.VideoTitle{
+    font: x-large;
+}
+
+.Details{
+    margin: 10px;
+}
+
+.RRP{
+    color: grey;
+}
+
+.Saving{
+    color: green;
+}
+
