@@ -1,0 +1,200 @@
+
+   .imgLog{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+   }
+
+   .menu1 li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu1 {
+    text-align: center;
+    
+}
+
+.menu1 li{
+    display: inline-block;
+    border: 1px solid black;
+    border-bottom: 4px solid black;
+    font-weight: bold;
+    padding: 0 5px;
+    font-size: 10px;
+    width: 20%;
+   
+
+}
+.menu1 li a:hover{
+    color :black;
+}
+
+ul.breadcrumb {
+    list-style: none;
+    font-size: 15px;
+    padding: 15px;
+}
+
+ul.breadcrumb li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul.breadcrumb li + li  :before {
+    content: ">";
+    padding-right : 10px
+}
+
+ul.breadcrumb li a {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 4px;
+}
+
+ul.breadcrumb li a:visited {
+    color:black;
+}
+
+.PI1{
+    width: 100%;
+}
+
+.paragraph{
+    margin: 20px;
+}
+
+#A{
+    
+    margin: 10px;
+}
+.Figures{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.VideoTitle{
+    font: x-large;
+}
+
+.Details{
+    margin: 10px;
+}
+
+.RRP{
+    color: grey;
+}
+
+.Saving{
+    color: red;
+}
+
+@media screen and (min-width:768px) {
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display:  inline-flex;
+    padding: 10px;
+    height: 110px;
+    width: 40%;
+    margin: 0 0px;
+    
+}
+.menu1 li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu1 {
+    display: inline-flex;
+   
+
+}
+.menu1 li{
+    display: inline-flex;
+    margin: 15px;
+    font-weight: bold;
+    border: none;
+
+}
+.menu1 li a:hover{
+    text-decoration: underline;
+    color :black;
+}
+
+ul.breadcrumb {
+    list-style: none;
+    font-size: 15px;
+    padding: 15px;
+}
+
+ul.breadcrumb li {
+    display: inline-block;
+}
+
+ul.breadcrumb li + li  :before {
+    content: "/";
+    padding-right : 10px
+}
+
+ul.breadcrumb li a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+ul.breadcrumb li a:hover { 
+    text-decoration: underline;
+}
+
+.PI1{
+    width: 100%;
+}
+
+#A{
+    display: flex;
+    margin: 10px;
+}
+.Figures{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+
+.VideoTitle{
+    font: x-large;
+}
+
+.Details{
+    margin: 10px;
+}
+
+.RRP{
+    color: grey;
+}
+
+.Saving{
+    color: green;
+}
+
+
+}
