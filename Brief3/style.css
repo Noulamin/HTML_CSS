@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=M+PLUS+1+Code:wght@300;400&family=Murecho:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+    background-color: rgb(16, 204, 148);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+.YC{
+    margin: 10px;
+    width: 100%;
+}
+
+.menu1 ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.menu1 {
+    display: inline-flex;
+    margin-left: 10%;
+}
+
+.menu1 ul li{
+    display: inline-flex;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.logo{
+    width: 10%;
+}
+.menu1 ul li a:hover{
+    text-decoration: underline;
+    color :black;
+}
+
+ul.breadcrumb {
+    list-style: none;
+    font-size: 15px;
+    padding: 15px;
+}
+
+ul.breadcrumb li {
+    display: inline-block;
+}
+
+
+
+ul.breadcrumb li a {
+    text-decoration: none;
+    color: black;
+    margin:120px;
+    font-size: 20px;
+    
+}
+
+ul.breadcrumb li a:hover { 
+    text-decoration: underline;
+}
+
+.breadcrumb{
+    display: flex;
+    
+}
+
+.text{
+    margin:5%;
+    width: 40%;
+    
+}
+.p1{
+    font-family: 'Corinthia', cursive;
+    font-size: 50px;
+    color: rgb(15, 65, 41);
+}
+
+.pic{
+    width: 40%;
+    float: right;
+    margin: 10px;
+}
+
+.maroc{
+    width: 70%;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
