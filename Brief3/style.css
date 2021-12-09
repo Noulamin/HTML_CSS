@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  Helvetica;
-    background-color: rgb(16, 204, 148);
+    background-color: #eee;
 }
 
 
@@ -20,7 +20,7 @@ nav {
 
 .menu1 ul li a{
     text-decoration: none;
-    color:white;
+    color:black;
     
 }
 
@@ -31,7 +31,7 @@ nav {
 
 .menu1 ul li{
     display: inline-flex;
-    margin: 15px;
+    margin: 10px;
     font-weight: bolder;
     font-size: 20px;
     
@@ -92,10 +92,167 @@ ul.breadcrumb li a:hover {
 }
 
 .maroc{
-    width: 70%;
+    width: 80%;
 }
 
 .body{
     display: flex;
     justify-content: center;
+}
+
+#slideshow {
+    text-align:left ;
+    overflow: hidden; 
+    width: 75%;
+    margin: 10px;
+    
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+    
+  }
+  
+  .slide:nth-child(1) {
+    background-image: url(323_001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide:nth-child(2) {
+    background-image: url(11-scaled-e1620654788859.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  .slide:nth-child(3) {
+    background-image: url(casa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide:nth-child(4) {
+    background-image: url(9-scaled-e1620654586162-1080x605.jpg);
+  }
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  #main
+  {
+      width: 100%;
+      display: flex;
+      margin: 10px;
+  }
+  #main > div
+  {
+      width: 50%;
+  }
+
+  .log{
+      color: black;
+      font-size: larger;
+  }
+
+  
+  
+  .I input{
+    margin: 20px;
+  }
+
+  .II{
+      padding: 15px;
+  }
+
+  .loc{
+      margin-bottom: 5px;
+  }
+  input{
+      padding: 5px;
+      border: 2px solid black;
+  }
+
+  .inpLoc{
+
+    margin-bottom: 15px;
+
+  }
+  .formulaire{
+      border: solid 2px black;
+      height: 750px;
+      width: 200px;
+      padding: 50px;
+
+  }
+
+  .IV{
+      display: flex;
+      padding: 25px;
+    
+      
+  }
+  label{
+      margin-top: 5px;
+  }
+  .space{
+      margin-right: 20px;
+  }
+  .inpLoc{
+      width: 400px;
+  }
+
+  .Product{
+      margin: 10px;
+  }
+
+  .Product input{
+      margin : 10px
+  }
+  
+.Product div  {
+    display: flex;
+    
+}
+
+.Product div input.def {
+    margin-left: 100px;
+}
+
+.radio input{
+    margin: 10px;
+}
+
+.V{
+    padding: 15px;
+}
+.V input{
+    margin: 15px;
+}
+
+button{
+    margin-left: 75%;
+    height: 30px;
+    width: 160px;
+    background-color:rgb(15, 15, 43);
+    color: whitesmoke;
 }
