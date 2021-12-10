@@ -10,12 +10,193 @@
 
 
 nav {
+    
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b5b5b5;
+}
+.YC{
+    margin: 10px;
+    width:  90%;
+}
+
+.menu1 ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.menu1 {
+    display: inline-flex;
+    
+}
+
+.menu1 ul li{
+    display: inline-flex;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 10px;
+    
+}
+
+
+.menu1 ul li a:hover{
+    text-decoration: underline;
+    color :black;
+}
+
+ul.breadcrumb {
+    list-style: none;
+    font-size: 15px;
+    padding: 15px;
+}
+
+ul.breadcrumb li {
+    display: inline-block;
+}
+
+
+
+ul.breadcrumb li a {
+    text-decoration: none;
+    color: black;
+    margin: 17px;
+    font-size: 15;
+    
+}
+
+ul.breadcrumb li a:hover { 
+    text-decoration: underline;
+}
+
+.breadcrumb{
+    display: flex;
+    
+}
+
+.pic{
+    width: 40%;
+    float: right;
+    margin: 10px;
+}
+
+.maroc{
+    width: 100%;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    margin:5%;
+    width: 40%;
+    
+}
+.p1{
+    font-family: 'Corinthia', cursive;
+    font-size: 20px;
+    color: rgb(15, 65, 41);
+}
+
+.formulaire{
+    margin-left:25px;
+    border: solid 2px black;
+    height: 500px;
+    width: 320px;
+    padding: 10px;
+}
+
+
+.I input{
+    margin: 8px;
+  }
+
+  .II{
+    padding: 5px;
+}
+
+.radio input{
+    margin: 1px;
+
+}
+
+.radio{
+    display: flex;
+    
+}
+
+
+
+.space{
+    margin-right: 5px;
+}
+.inpLoc{
+    width: 250px;
+}
+
+.Product{
+    
+    font-size: 13px;
+    
+}
+
+.Product input{
+    margin : 5px;
+    
+}
+
+.Product div  {
+  display: inline-flex;
+  
+}
+
+.Product div input.def {
+  margin-left: 100px;
+}
+
+
+
+.V{
+  padding: 15px;
+}
+.V input{
+  margin: 15px;
+}
+
+button{
+  margin-left: 50%;
+  height: 30px;
+  width: 160px;
+  background-color:rgb(15, 15, 43);
+  color: whitesmoke;
+}
+
+.email{
+  width: 100px;
+}
+
+@media only screen and (min-width: 768px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=M+PLUS+1+Code:wght@300;400&family=Murecho:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+    background-color: #eee;
+}
+
+
+nav {
     display: flex;
     align-items: center;
 }
 .YC{
     margin: 10px;
-    width: 100%;
+    width:  90%;
 }
 
 .menu1 ul li a{
@@ -29,6 +210,13 @@ nav {
     margin-left: 10%;
 }
 
+.menu1 ul {
+display: flex;
+font-size: x-large;
+
+
+}
+
 .menu1 ul li{
     display: inline-flex;
     margin: 10px;
@@ -37,9 +225,7 @@ nav {
     
 }
 
-.logo{
-    width: 10%;
-}
+
 .menu1 ul li a:hover{
     text-decoration: underline;
     color :black;
@@ -192,11 +378,7 @@ ul.breadcrumb li a:hover {
       border: 2px solid black;
   }
 
-  .inpLoc{
-
-    margin-bottom: 15px;
-
-  }
+  
   .formulaire{
       border: solid 2px black;
       height: 750px;
@@ -206,7 +388,7 @@ ul.breadcrumb li a:hover {
   }
 
   .IV{
-      display: flex;
+     
       padding: 25px;
     
       
@@ -219,6 +401,7 @@ ul.breadcrumb li a:hover {
   }
   .inpLoc{
       width: 400px;
+      margin: 1px;
   }
 
   .Product{
@@ -299,4 +482,5 @@ button{
         color :black;
     }
 
+}
 }
